@@ -1,4 +1,7 @@
-# Python cache
+# Environment
+.env
+
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -7,15 +10,12 @@ __pycache__/
 # Virtual Environment
 venv/
 
-# Environment
-.env
+# Downloads
+downloads/
 
 # Logs
 logs/
 *.log
-
-# Downloads
-downloads/
 
 # Database
 data/*.db
@@ -23,6 +23,8 @@ data/*.db
 # VS Code
 .vscode/
 
-# OS files
-.DS_Store
+# Windows
 Thumbs.db
+
+# macOS
+.DS_Store
